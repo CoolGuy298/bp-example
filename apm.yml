@@ -1,0 +1,9 @@
+name: bp-example
+version: 1.0.0
+description: APM project for bp-example
+author: dung.tuan2
+dependencies:
+  apm: []
+  mcp: []
+includes: auto
+scripts: {}
