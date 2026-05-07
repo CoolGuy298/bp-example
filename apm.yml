@@ -6,7 +6,7 @@ author: dung.tuan2
 dependencies:
   apm: []
   mcp:
-  - name: custom-tool
+  - name: my_mcp
     command: python
     args: 
       - "-m"
