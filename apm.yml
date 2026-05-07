@@ -13,6 +13,13 @@ dependencies:
       - "-m"
       - "my_mcp_server"
     registry: false
-
+   -name : github 
+    disabled: false,
+    timeout: 60,
+    type: "streamableHttp",
+    url: "https://ipaas-sca.sec.samsung.net/sec/kr/mcp_github_001/1.0/mcp",
+    headers: {
+      "iPaaS-Backend-Authorization": "Bearer ${GITHUB_TOKEN}"
+    }
 includes: auto
 scripts: {}
