@@ -6,11 +6,11 @@ author: dung.tuan2
 dependencies:
   apm: []
   mcp:
-  - github-mcp-server
   - name: custom-tool
     command: python
     args: 
       - "-m"
       - "my_mcp_server"
+    registry: false
 includes: auto
 scripts: {}
