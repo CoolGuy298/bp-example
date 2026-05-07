@@ -5,6 +5,14 @@ description: APM project for bp-example
 author: dung.tuan2
 dependencies:
   apm: []
-  mcp: []
+  mcp: 
+  - name: my_mcp
+    transport: stdio
+    command: python
+    args: 
+      - "-m"
+      - "my_mcp_server"
+    registry: false
+
 includes: auto
 scripts: {}
